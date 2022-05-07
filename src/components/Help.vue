@@ -16,7 +16,7 @@ onMounted(() => {
 
   <p class="note">※キー操作は、本ツールが選択（本ツールをマウスでクリック）されている必要があるのでご注意ください。</p>
 
-  <h2>リプレイ操作</h2>````
+  <h2>リプレイ操作</h2>
   <div class="table-container">
     <table>
       <thead>
