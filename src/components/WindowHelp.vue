@@ -79,6 +79,7 @@
           <thead>
           <tr>
             <td>項目</td>
+            <td>表示例</td>
             <td>説明</td>
           </tr>
           </thead>
@@ -86,6 +87,9 @@
             <tr>
               <td>
                 <p>Pos</p>
+              </td>
+              <td rowspan="2">
+                <p class="image pos" style="text-align: center;"><img src="../assets/images/LapTable1.png" alt="Laptime table"/></p>
               </td>
               <td>
                 <p>現在のクラス順位です。数秒おきに更新されます。</p>
@@ -104,6 +108,9 @@
               <td>
                 <p>Car#</p>
               </td>
+              <td rowspan="2">
+                <p class="image number"><img src="../assets/images/LapTable1.png" alt="Laptime table"/></p>
+              </td>
               <td>
                 <p>車番（カーナンバー）です。</p>
               </td>
@@ -121,6 +128,9 @@
               <td>
                 <p>Team</p>
               </td>
+              <td rowspan="2">
+                <p class="image name"><img src="../assets/images/LapTable1.png" alt="Laptime table"/></p>
+              </td>
               <td>
                 <p>チーム戦の場合はチーム名、個人戦の場合は個人名が表示されます。</p>
               </td>
@@ -137,6 +147,9 @@
               <td>
                 <p>LastPit</p>
               </td>
+              <td rowspan="2">
+                <p class="image pit"><img src="../assets/images/LapTable1.png" alt="Laptime table"/></p>
+              </td>
               <td>
                 <p>最後にピットに入った周です。</p>
               </td>
@@ -152,6 +165,9 @@
             </tr>
             <tr>
               <td>
+                LapComp
+              </td>
+              <td>
                 <p class="image lap-comp"><img src="../assets/images/LapTable1.png" alt="Laptime table"/></p>
               </td>
               <td>
@@ -164,6 +180,9 @@
             <tr>
               <td>
                 <p>ΔSec</p>
+              </td>
+              <td rowspan="2">
+                <p class="image delta"><img src="../assets/images/LapTable1.png" alt="Laptime table"/></p>
               </td>
               <td>
                 <p>自車（スペクテーターの場合は選択しているドライバー（チーム））との差を「分：秒」で表示します。</p>
@@ -183,7 +202,20 @@
             <tr>
               <td>
                 <p>LapTime</p>
+              </td>
+              <td rowspan="2">
                 <p class="image lap-time"><img src="../assets/images/LapTable1.png" alt="Laptime table"/></p>
+              </td>
+              <td>
+                <p>ラップタイムを直近40周分表示します。</p>
+                <p>左が最新になります。</p>
+                <p>下の段は、自車とのタイム差です。緑は相手の方が遅い、赤は相手の方が速いことを示しています。</p>
+                <p>例は、赤表示なので、相手の車が1.481秒速いことを示しています。</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>LapTime差</p>
               </td>
               <td>
                 <p>ラップタイムを直近40周分表示します。</p>
@@ -267,21 +299,80 @@ p.help-icon {
   }
 }
 
-p.lap-comp {
-  height: 80px;
-  width: 48px;
+p.pos {
+  height: 70px;
+  width: 60px;
   img {
-    top: -55px;
-    left: -266px;
+    top: -182px;
+    left: 0;
+    transform-origin: top left 0;
+    transform: scale(2.0, 2.0);
+  }
+}
+
+p.number {
+  height: 70px;
+  width: 60px;
+  img {
+    top: -182px;
+    left: -76px;
+    transform-origin: top left 0;
+    transform: scale(2.0, 2.0);
+  }
+}
+
+p.name {
+  height: 58px;
+  width: 60px;
+  img {
+    top: -238px;
+    left: -112px;
+    transform-origin: top left 0;
+    transform: scale(1.5, 1.5);
+  }
+}
+
+p.pit {
+  height: 70px;
+  width: 60px;
+  img {
+    top: -950px;
+    left: -454px;
+    transform-origin: top left 0;
+    transform: scale(2.0, 2.0);
+  }
+}
+
+p.lap-comp {
+  height: 54px;
+  width: 70px;
+  img {
+    top: -188px;
+    left: -400px;
+    transform-origin: top left 0;
+    transform: scale(1.5, 1.5);
+  }
+}
+
+p.delta {
+  height: 54px;
+  width: 70px;
+  img {
+    top: -188px;
+    left: -468px;
+    transform-origin: top left 0;
+    transform: scale(1.5, 1.5);
   }
 }
 
 p.lap-time {
-  height: 38px;
-  width: 50px;
+  height: 54px;
+  width: 88px;
   img {
-    top: -90px;
-    left: -365px;
+    top: -188px;
+    left: -540px;
+    transform-origin: top left 0;
+    transform: scale(1.5, 1.5);
   }
 }
 

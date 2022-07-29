@@ -29,69 +29,81 @@
         </tr>
 
         <tr>
-          <td class="operation">遠い後ろ視点切り替え</td>
+          <td class="operation">TV1視点切り替え</td>
           <td class="key"><span>F2</span></td>
-          <td class="desc">iRacingのカメラをFar chaseに切り替えます</td>
+          <td class="desc">iRacingのカメラをTV1に切り替えます</td>
         </tr>
 
         <tr>
-          <td class="operation">TV1視点切り替え</td>
+          <td class="operation">TV2視点切り替え</td>
           <td class="key"><span>F3</span></td>
           <td class="desc">iRacingのカメラをTV1に切り替えます</td>
         </tr>
 
         <tr>
-          <td class="operation">TV Mixed視点切り替え</td>
+          <td class="operation">TV MixedかTV3視点切り替え</td>
           <td class="key"><span>F4</span></td>
-          <td class="desc">iRacingのカメラをTV1 Mixedに切り替えます。ただし対応していないサーキットはフロント視点になります。</td>
+          <td class="desc">iRacingのカメラをTV1 Mixedに切り替えます。ただし対応していない場合はTV3になります。</td>
         </tr>
 
         <tr>
-          <td class="operation">上から視点切り替え</td>
+          <td class="operation">フロント視点切り替え</td>
           <td class="key"><span>F5</span></td>
-          <td class="desc">iRacingのカメラをBlimpに切り替えます</td>
+          <td class="desc">iRacingのカメラをRear chase（前から視点）に切り替えます</td>
         </tr>
 
         <tr>
-          <td class="operation">遠い上から視点切り替え</td>
+          <td class="operation">後ろ視点切り替え</td>
           <td class="key"><span>F6</span></td>
-          <td class="desc">iRacingのカメラをChopperに切り替えます</td>
+          <td class="desc">iRacingのカメラをChase（後ろから視点）に切り替えます</td>
         </tr>
 
         <tr>
-          <td class="operation">右リヤタイヤ視点切り替え</td>
+          <td class="operation">遠い後ろ視点切り替え</td>
           <td class="key"><span>F7</span></td>
-          <td class="desc">iRacingのカメラをRR Suspに切り替えます</td>
+          <td class="desc">iRacingのカメラをFar chase（遠い後ろから視点）に切り替えます</td>
         </tr>
 
         <tr>
-          <td class="operation">右フロントタイヤ視点切り替え</td>
+          <td class="operation">左フロントタイヤ視点切り替え</td>
           <td class="key"><span>F8</span></td>
-          <td class="desc">iRacingのカメラをRF Suspに切り替えます</td>
+          <td class="desc">iRacingのカメラをLF Susp（左前タイヤ視点）に切り替えます</td>
         </tr>
 
         <tr>
           <td class="operation">左リヤタイヤ視点切り替え</td>
           <td class="key"><span>F9</span></td>
-          <td class="desc">iRacingのカメラをLR Suspに切り替えます</td>
+          <td class="desc">iRacingのカメラをLR Susp（左後タイヤ視点）に切り替えます</td>
         </tr>
 
         <tr>
-          <td class="operation">左フロントタイヤ視点切り替え</td>
+          <td class="operation">右フロントタイヤ視点切り替え</td>
           <td class="key"><span>F10</span></td>
-          <td class="desc">iRacingのカメラをLF Suspに切り替えます</td>
+          <td class="desc">iRacingのカメラをRF Susp（左前タイヤ視点）に切り替えます</td>
         </tr>
 
         <tr>
-          <td class="operation">フロント視点切り替え</td>
+          <td class="operation">右リヤタイヤ視点切り替え</td>
           <td class="key"><span>F11</span></td>
-          <td class="desc">iRacingのカメラをRear chaseに切り替えます</td>
+          <td class="desc">iRacingのカメラをRR Susp（右後タイヤ視点）に切り替えます</td>
         </tr>
 
         <tr>
-          <td class="operation">後ろ視点切り替え</td>
+          <td class="operation">遠い上から視点切り替え</td>
           <td class="key"><span>F12</span></td>
-          <td class="desc">iRacingのカメラをChaseに切り替えます</td>
+          <td class="desc">iRacingのカメラをChopperに切り替えます</td>
+        </tr>
+
+        <tr>
+          <td class="operation">後ろの車に切り替え</td>
+          <td class="key"><span>v</span><br/>または<br/><span>→</span></td>
+          <td class="desc">選択されている車の後ろを走っている車にカメラを切り替えます。順位は関係なく単純な位置です。</td>
+        </tr>
+
+        <tr>
+          <td class="operation">前の車に切り替え</td>
+          <td class="key"><span>Shift + v</span><br/>または<br/><span>←</span></td>
+          <td class="desc">選択されている車の前を走っている車にカメラを切り替えます。順位は関係なく単純な位置です。</td>
         </tr>
         </tbody>
       </table>
