@@ -37,13 +37,13 @@
         <tr>
           <td class="operation">TV2視点切り替え</td>
           <td class="key"><span>F3</span></td>
-          <td class="desc">iRacingのカメラをTV1に切り替えます</td>
+          <td class="desc">iRacingのカメラをTV2に切り替えます</td>
         </tr>
 
         <tr>
           <td class="operation">TV MixedかTV3視点切り替え</td>
           <td class="key"><span>F4</span></td>
-          <td class="desc">iRacingのカメラをTV1 Mixedに切り替えます。ただし対応していない場合はTV3になります。</td>
+          <td class="desc">iRacingのカメラをTV Mixedに切り替えます。ただし対応していない場合はTV3になります。</td>
         </tr>
 
         <tr>
